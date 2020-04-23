@@ -1,0 +1,76 @@
+body { 
+    background: url(../images/wall4.png);
+}
+
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: plum;
+    height: 100px;
+    width: 340px;
+    text-align: center;
+    
+}
+
+h2 {
+    color: white;
+    font-size: 33px;
+    padding-top: 30px;
+}
+
+#instructions {
+    background-color: peachpuff;
+    width: 320px;
+    padding: 10px;
+}
+
+.randomNumber {
+    background-color: forestgreen;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    display: inline-block;
+    padding: 7px;
+    padding: 58px 7px 7px 7px;
+}
+
+#randomNumber {
+    position: relative;
+    top: -40px;
+}
+
+#winsLosses {
+    display: inline-block;
+    background-color: greenyellow;
+    width: 171px;
+    padding-bottom: 6px;
+    text-align: center;
+}
+
+#winsBoard {
+    margin-top: 15px;
+}
+
+p {
+    font-size: 18px;
+    color: black;
+
+}
+
+img {
+    height: 140px;
+    width: 140px;
+}
+
+.crystal {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+#yourScore, #totalScore {
+    background-color: cyan;
+    width: 330px;
+    padding: 5px;
+}
