@@ -75,6 +75,7 @@ button {
 }
 
 #yourScore, #totalScore {
+    text-align: center;
     background-color: cyan;
     width: 330px;
     padding: 5px;
