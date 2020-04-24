@@ -17,21 +17,25 @@ $(document).ready(function() {
     $('#diamond').on('click', function() {
         counter += diamond;
         console.log(counter)
+        return
     });
 
     $('#ruby').on('click', function() {
-        counter += diamond;
+        counter += ruby;
         console.log(counter)
+        return
     });
 
     $('#emerald').on('click', function() {
-        counter += diamond;
+        counter += emerald;
         console.log(counter)
+        return
     });
 
     $('#amber').on('click', function() {
-        counter += diamond;
+        counter += amber;
         console.log(counter)
+        return
     });
 
 
