@@ -80,3 +80,12 @@ button {
     width: 330px;
     padding: 5px;
 }
+
+#message {
+    font-size: 40px;
+    font-family: cursive;
+    color: red;
+    margin-left: 50px;
+    margin-top: 8px;
+    text-decoration: underline;
+}

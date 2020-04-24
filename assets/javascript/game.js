@@ -76,15 +76,15 @@ $(document).ready(function() {
         if (counter > randomNumber) {
             losses++;
             loseMessage = 'Imposter!!'
-            $('#message').text(loseMessage);
-            setTimeout(function() { $("#message").hide(); }, 4000);
+            $('#message').text(loseMessage).show();
+            setTimeout(function() { $("#message").hide(); }, 6000);
             reset();
 
         } else if (counter == randomNumber) {
             wins++;
             winMessage = 'You really are the Crystal Collector!'
-            $("#message").text(winMessage);
-            setTimeout(function() { $("#message").hide(); }, 4000);
+            $("#message").text(winMessage).show();
+            setTimeout(function() { $("#message").hide(); }, 6000);
             reset();
         }
     }
@@ -92,7 +92,6 @@ $(document).ready(function() {
 
 
 reset();
-winOrLose();
 
 
 });
