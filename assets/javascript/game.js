@@ -14,31 +14,6 @@ let losses = 0
 
 $(document).ready(function() {
 
-    $('#diamond').on('click', function() {
-        counter += diamond;
-        console.log(counter)
-        return
-    });
-
-    $('#ruby').on('click', function() {
-        counter += ruby;
-        console.log(counter)
-        return
-    });
-
-    $('#emerald').on('click', function() {
-        counter += emerald;
-        console.log(counter)
-        return
-    });
-
-    $('#amber').on('click', function() {
-        counter += amber;
-        console.log(counter)
-        return
-    });
-
-
 
     function reset() {
         // https://stackoverflow.com/questions/4959975/generate-random-number-between-two-numbers-in-javascript
@@ -50,21 +25,39 @@ $(document).ready(function() {
         
         counter = 0;
 
-        // shower values on html
+        // shower initial values on html
         $('#randomNumber').text(randomNumber);
         $('#wins').text(wins);
         $('#losses').text(losses);
         $('#counter').text(counter);
 
-
-
-
-
-
     }
     
     // button functions adding to counter
 
+    $('#diamond').on('click', function() {
+        counter += diamond;
+        $('#counter').text(counter);
+        return
+    });
+
+    $('#ruby').on('click', function() {
+        counter += ruby;
+        $('#counter').text(counter);
+        return
+    });
+
+    $('#emerald').on('click', function() {
+        counter += emerald;
+        $('#counter').text(counter);
+        return
+    });
+
+    $('#amber').on('click', function() {
+        counter += amber;
+        $('#counter').text(counter);
+        return
+    });
 
     
 
@@ -73,5 +66,6 @@ $(document).ready(function() {
 
 
 reset();
+console.log(counter)
 
 });
