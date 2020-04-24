@@ -75,10 +75,16 @@ $(document).ready(function() {
     function winOrLose() {
         if (counter > randomNumber) {
             losses++;
+            loseMessage = 'Imposter!!'
+            $('#message').text(loseMessage);
+            setTimeout(function() { $("#message").hide(); }, 4000);
             reset();
 
         } else if (counter == randomNumber) {
             wins++;
+            winMessage = 'You really are the Crystal Collector!'
+            $("#message").text(winMessage);
+            setTimeout(function() { $("#message").hide(); }, 4000);
             reset();
         }
     }
