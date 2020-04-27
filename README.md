@@ -13,6 +13,8 @@
     - javascript
         -game.js
 
+==========================
+
 ## Functionality:
 
 * Upon initial start, all variables are set to 0, the random number is set to a number between 19-120.
