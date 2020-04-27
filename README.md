@@ -2,16 +2,15 @@
 
 ## Directory:
 
-- unit-4-game
-    index.html
-    README.md
-    - assets
-        - css
-        - reset.css
-        - style.css
-    - images
-    - javascript
-        -game.js
+- [index.html](./index.html)
+- [README.md](./README.MD)
+- [assets](./assets)
+    - [css](./assets/css)
+        - [reset.css](./assets/css/reset.css)
+        - [style.css](./assets/css/style.css)
+    - [images](./assets/images)
+    - [javascript](./assets/javascript)
+        - [game.js](./assets/game.js)
 
 ==========================
 
