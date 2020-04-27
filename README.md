@@ -10,7 +10,7 @@
         - [style.css](./assets/css/style.css)
     - [images](./assets/images)
     - [javascript](./assets/javascript)
-        - [game.js](./assets/game.js)
+        - [game.js](./assets/javascript/game.js)
 
 ==========================
 
