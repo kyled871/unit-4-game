@@ -22,4 +22,4 @@
 * If the score variable is = to the current random number, the game will display a win message and reset all variables except the winning or losses scores.
 * If the score variable is becomes greater than the current random number, a losing message will display and a loss point will add.
 
-*This project was to show simply DOM manipulation use jQuery*
+*This project was to show simple DOM manipulation use jQuery*
