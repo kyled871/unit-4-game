@@ -1,4 +1,4 @@
-# Crystal Collector Game
+# [Crystal Collector Game](https://kyled871.github.io/unit-4-game/)
 
 ## Directory:
 
@@ -21,3 +21,5 @@
 * When either of the images are clicked they're added against the previous "score" variable.
 * If the score variable is = to the current random number, the game will display a win message and reset all variables except the winning or losses scores.
 * If the score variable is becomes greater than the current random number, a losing message will display and a loss point will add.
+
+*This project was to show simply DOM manipulation use jQuery*
